@@ -1,58 +1,86 @@
-body{
-    height: 100vh;
-    margin: 0;
-   background:linear-gradient(to bottom,red,white,blue);
+body {
+    background: linear-gradient(to bottom, red, white, blue);
+    background-repeat: no-repeat;     
+    background-attachment: fixed;   
+    min-height: 100vh;                
+    
+    padding: 20px;
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-
-h1{
+/* Título */
+h1 {
     background-color: antiquewhite;
     text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
 
-.ppp{
-    background-color: blue;
+/* Contenedor principal para los tres cuadros */
+.contenedor-2 {
+    display: flex;           
+    justify-content: center; 
+    gap: 20px;             
+    margin-top: 20px;
+    flex-wrap: wrap;         
+}
+
+/* Estilos comunes para los cuadros */
+.contenedor-1, .ppp, .mmm3 {
     width: 250px;
     height: 250px;
     border-radius: 10%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
-    margin: 10px;
+    justify-content: center;
+    align-items: center;     
     text-align: center;
-   
+    padding: 10px;
+    box-sizing: border-box;
 }
 
-
-
+/* Colores individuales */
 .contenedor-1 {
-    background-color: blue;
-    width: 250px;
-    height: 250px;
-    border-radius: 10%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 10px;
-    text-align: center;
-   
+    background-color: rgb(216, 5, 5);
+    color: white;
+}
+
+.ppp {
+    background-color: rgb(255, 255, 255);
+    color: black; 
+}
+
+.mmm3 {
+    background-color: rgb(11, 5, 198);
+    color: white;
+}
+
+/* Lista dentro de contenedor-1 */
+.contenedor-1 ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Párrafos dentro de ppp y mmm3 */
+.ppp p, .mmm3 p {
+    font-size: 14px;
+    line-height: 1.4;
 }
 
 
 
-
-
-
-
-.contenedor-2{
-    background-color: rgb(255, 0, 81);
-    width: 250px;
-    height: 250px;
-    border-radius: 10%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    border-top: 100px;
-    margin: 10px;
-    
-}
-
-.contenedor-2{
+.imagen {
+    margin-top: 20px;
     display: flex;
+    justify-content: center;
+}
+
+.imagen img {
+    width: 600px;        
+    max-width: 90%;      
+    border-radius: 10px; 
 }
