@@ -1,0 +1,101 @@
+head{
+    background-color: black;
+}
+
+body {
+    background: linear-gradient(to left,
+        #1e3c72,
+        #f6f7f8,
+        #f10707
+    );
+}
+
+.card {
+    width: 250px;
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card img{
+    width: 250px;
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: 15px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card h2{
+    font-size: 25px;
+}
+
+.card p{
+    color: gray;
+}
+/* segundo */
+
+.card {
+    width: 250px;
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card img{
+    width: 250px;
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: 15px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card h2{
+    font-size: 25px;
+}
+
+.card p{
+    color: gray;
+}
+
+/* tecercero */
+
+.card {
+    width: 250px;
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card img{
+    width: 250px;
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: 15px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card h2{
+    font-size: 25px;
+}
+
+.card p{
+    color: gray;
+}
