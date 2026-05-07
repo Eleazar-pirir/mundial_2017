@@ -110,6 +110,12 @@ h3{
     height: 200px;
     width: 200px;
 }
+.caja0{
+    background-color: rgba(232, 13, 13, 0.89);
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+}
 .Contenedor-equipo1{
     display: flex;
     gap: 20px;
@@ -124,13 +130,37 @@ h4{
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+h5{
+    text-align: center;
+    color: rgba(31, 31, 245, 0.815);
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h6{
+    text-align: center;
+    color: rgb(104, 104, 104);
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .caja1{
+    background-color: rgba(31, 31, 245, 0.815);
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+}
+.caja2{
     background-color: white;
     border-radius: 5px;
     height: 200px;
     width: 200px;
 }
-.contenedor-octavos1{
+.caja3{
+    background-color: gold;
+    border-radius: 7px;
+    height: 200px;
+    width: 200px;
+}
+.Contenedor-octavos1{
     display: flex;
     gap: 20px;
 }
@@ -138,6 +168,15 @@ h4{
     display: flex;
     gap: 20px;
 }
+.contenedor-cuartos{
+    display: flex;
+    gap: 20px;
+}
+.contenedor-semis{
+    display: flex;
+    gap: 20px;
+}
+
 
 
 /* antony final */
