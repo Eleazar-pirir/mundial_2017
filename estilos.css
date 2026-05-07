@@ -90,13 +90,57 @@ h1 {
 
 /* antony inicio */
 h2{
-    background-color: wheat;
+    background-color: blanchedalmond;
     border-radius: 15px;
     padding: 10px 15px;
+    font-size: 28px;
+}
+h3{
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: blanchedalmond;
+    height: 75%;
+    width: 75%;
+    border-radius: 10px;
+}
+.caja{
+    background-color: rgba(31, 31, 245, 0.815);
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+}
+.Contenedor-equipo1{
+    display: flex;
+    gap: 20px;
+}
+.contenedor-equipo2{
+    display: flex;
+    gap: 20px;
+}
+h4{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.caja1{
+    background-color: white;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+}
+.contenedor-octavos1{
+    display: flex;
+    gap: 20px;
+}
+.contenedor-octavos2{
+    display: flex;
+    gap: 20px;
 }
 
-/* antony final */
 
+/* antony final */
 
 
 /* aless inicio */
