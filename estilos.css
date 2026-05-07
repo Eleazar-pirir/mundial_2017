@@ -84,3 +84,44 @@ h1 {
     max-width: 90%;      
     border-radius: 10px; 
 }
+
+
+.contenedor{
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    background-color: rgb(34, 9, 9);
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.contenedor div{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    outline: 10px solid white;
+
+}
+
+
+.contenedor .caja1{
+    background-color: blueviolet;
+}
+
+.contenedor .caja2{
+    background-color: brown;
+}
+
+.contenedor .caja3{
+    background-color: black;
+}
+
+.contenedor .caja4{
+    background-color: azure;
+}
